@@ -1,8 +1,9 @@
 {
   "name": "qsa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight .queryselectorAll() shortcut which array coercion",
   "main": "index.js",
+  "jsnext:main": "index.js",
   "scripts": {
     "build": "rollup test/test.js | babel | uglifyjs > test/test.min.js"
   },
