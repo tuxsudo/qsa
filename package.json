@@ -1,0 +1,34 @@
+{
+  "name": "qsa",
+  "version": "1.0.0",
+  "description": "Lightweight .queryselectorAll() shortcut which array coercion",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup test/test.js | babel | uglifyjs > test/test.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxsudo/qsa.git"
+  },
+  "keywords": [
+    "dom",
+    "querySelectorAll",
+    "selectors"
+  ],
+  "author": "Jared Anderson <@tuxsudo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuxsudo/qsa/issues"
+  },
+  "homepage": "https://github.com/tuxsudo/qsa#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "rollup": "^0.19.1",
+    "uglifyjs": "^2.4.10"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
