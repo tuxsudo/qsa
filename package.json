@@ -1,6 +1,6 @@
 {
   "name": "qsa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightweight .queryselectorAll() shortcut which array coercion",
   "main": "index.js",
   "jsnext:main": "index.js",
@@ -14,7 +14,8 @@
   "keywords": [
     "dom",
     "querySelectorAll",
-    "selectors"
+    "selectors",
+    "es6"
   ],
   "author": "Jared Anderson <@tuxsudo>",
   "license": "MIT",
